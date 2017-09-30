@@ -1,0 +1,23 @@
+body {
+  margin: 0; }
+
+.circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  background-color: #FFFFFF;
+  border-radius: 100%;
+  border: 1px solid black;
+  height: 0;
+  width: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 1s ease-in-out; }
+  .circle.active {
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+    visibility: visible; }
