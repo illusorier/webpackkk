@@ -25,7 +25,6 @@ instance.get('/hero').then(function (res) {
     console.log(res);
 });
 
-//
 class EventLoop {
     constructor(queue) {
         this.queue = queue;
